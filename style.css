@@ -1,0 +1,65 @@
+/* font family  */
+.font_gara{
+    font-family: 'EB Garamond', serif;
+}
+.font_popi{
+    font-family: 'Poppins', sans-serif;
+}
+/* end */
+.btn_legal_primary{
+    background-color: #B68C5A;
+    color: aliceblue;
+}
+.legal_bg_img{
+    background-image: url(images/banner.png), linear-gradient(to top, rgba(0,0,0,1) 20%, rgba(100,51,51,0.2) 86%, rgba(51,51,51,0.2) 100%);
+    ;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-blend-mode:darken;
+}
+.legal_btn{
+    border-radius: 10px;
+}
+.legal_gray{
+    background-color: #E7E7E7;
+}
+.legal_height{
+    height:80vh;
+}
+.legal_shovan{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.legal_extra{
+    list-style: none;
+}
+.legal_bg_blur{
+    filter: brightness(0.4);
+}
+.legal_p_dark{
+    color: #707070    ;
+}
+.legal_h_dark{
+    color: #414040;
+    font-size: 42px;
+}
+.legal_btn_mrgn{
+    margin-left: -36px;;
+    padding: 21.5px;
+}
+.accordion-button:not(.collapsed) {
+    color: #000000!important;
+    background-color: #e7eaed!important;
+    font-size: 20px!important
+   
+    
+}
+.accordion-body, .accordion-button
+{
+    color: #000000!important;
+    background-color: #e7eaed!important;
+}
